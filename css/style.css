@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.main-left .title-left {
+  color: #6C63FF;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 2.5em;
+}
+.main-left .clock .menu {
+  display: flex;
+  justify-content: space-around;
+}
+.main-left .clock .menu p {
+  color: #C8C8C8;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+.main-left .clock #time {
+  color: #4D4C59;
+  font-size: 4.7em;
+}
+.main-left h3 {
+  color: #9C9AB6;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-align: center;
+}
+.main-left .subscribe {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1em;
+  padding: 12px 0;
+  background-color: #6C63FF;
+  color: rgba(255, 255, 255, 0.856);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
