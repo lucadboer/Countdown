@@ -7,7 +7,12 @@
 }
 
 body {
-  background-color: #564dfc;
+  background-color: rgb(25, 34, 155);
+  overflow-x: hidden;
+}
+
+.bg-top-bottom {
+  margin: -6px;
 }
 
 main {
@@ -16,6 +21,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: -80px 0;
 }
 
 .main-left {
@@ -24,10 +30,11 @@ main {
   row-gap: 30px;
 }
 .main-left .title-left {
-  color: #6C63FF;
+  color: #1cff7b;
   font-weight: 700;
   letter-spacing: 4px;
   font-size: 2.5em;
+  margin-left: 10px;
 }
 .main-left .clock .menu {
   display: flex;
@@ -39,11 +46,12 @@ main {
   font-size: 0.9em;
 }
 .main-left .clock #time {
-  color: #4D4C59;
+  margin-left: 14px;
+  color: rgb(255, 255, 255);
   font-size: 4.7em;
 }
 .main-left h3 {
-  color: #9C9AB6;
+  color: #ffffff;
   font-size: 1em;
   font-weight: 400;
   text-align: center;
@@ -53,14 +61,25 @@ main {
   margin: 0 auto;
   font-size: 1em;
   padding: 12px 0;
-  background-color: #6C63FF;
+  background-color: #8e32f7;
   color: rgba(255, 255, 255, 0.856);
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  transition: 0.5s;
+  box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.342);
+  transition: all linear 0.3s;
 }
 .main-left .subscribe:hover {
-  background-color: #564dfc;
+  background-color: #1cff7b;
+  color: #8e32f7;
   transform: scale(1.05);
+  font-weight: 500;
+}
+
+.main-right img {
+  cursor: pointer;
+  transition: all linear 0.35s;
+}
+.main-right img:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
