@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
     <script defer src="./js/main.js"></script>
+    <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Countdown</title>
 </head>
 <body>
-    <img src="./images/top-image.svg" alt="">
+    <img class="bg-top-bottom" src="./images/top-image.svg" alt="">
     <main>
         <div class="main-left">
             <h1 class="title-left">
@@ -26,11 +27,30 @@
             </div>
     
             <h3>Inscreva-se para saber mais sobre o lançamento</h3>
-            <button class="subscribe">Inscreva-se</button> 
+            <button class="subscribe">Quero me inscrever!</button> 
+
+        </div>
+
+        <div class="modal-subscribe">
+            <button id="btnClose">x</button>
+            <form id="form-subscribe" class="main-form">
+                <fieldset>
+                    <div class="place">
+                        <label for="name">Nome: </label>
+                        <input id="name" type="text" placeholder="Digite seu nome" required autocomplete="name" autofocus>
+                    </div>
+                    <div class="place">
+                        <label for="email">Email: </label>
+                        <input id="email" type="email" placeholder="exemplo@outlook.com" required autocomplete="email" minlength="8">
+                    </div>
+
+                    <button id="btnSubscribe" type="submit" form="form-subscribe">Inscreva-se</button>
+                </fieldset>
+            </form>
         </div>
         
         <div class="main-right">
-            <img src="./images/rocket.svg" alt="">
+            <a href="https://www.youtube.com/watch?v=Vfp1bzJlQUw"><img src="./images/rocket.svg" alt=""></a>
         </div>
     </main>
     <img class="bg-top-bottom" src="./images/bottom-image.svg" alt="">
