@@ -24,4 +24,5 @@ Desafio realizado criando um cronômetro para o lançamento de um Ônibus Espaci
     
 - JavaScript
     - Interatividade
+    - Criação de um timer
     - Manipulação da DOM    
