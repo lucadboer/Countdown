@@ -3,6 +3,8 @@ const buttonOpen = document.querySelector('.subscribe')
 const modal = document.querySelector('.modal-subscribe')
 const buttonClose = document.querySelector('#btnClose')
 const form = document.querySelector('#form-subscribe')
+const txtName = document.querySelector('#name')
+const txtEmail = document.querySelector('#email')
 
 let days = 10;
 let hours = 4;
@@ -30,6 +32,8 @@ form.addEventListener('submit', (e) => {
     swal("Cadastro realizado!", "", "success")
     .then(() => {
         modal.classList.add('modal-disable')
+        txtName.value = ''
+        txtEmail.value = ''   
     })
 
 })

@@ -214,6 +214,13 @@ main {
     }
 }
 
+.swal-overlay {
+    background-color: rgba(0, 0, 0, 0.600);
+}
+
+.swal-button {
+    background-color: #340e5f;
+}
 
 @keyframes modal {
     from {

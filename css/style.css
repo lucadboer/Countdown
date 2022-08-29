@@ -205,6 +205,14 @@ main {
   transform: scale(1.05);
 }
 
+.swal-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.swal-button {
+  background-color: #340e5f;
+}
+
 @-webkit-keyframes modal {
   from {
     opacity: 0;
