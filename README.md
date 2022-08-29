@@ -1,6 +1,5 @@
-# Countdown
 <p align="center">
-    <img width="300" src="./images/top-image.svg">
+    <img width="300" src="./images/rocket.svg">
 </p>
 
 -------
